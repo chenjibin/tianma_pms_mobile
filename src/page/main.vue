@@ -91,11 +91,11 @@ export default {
       itemValue: 'myLog',
       open: false,
       listData: [
-        {
-          title: '首页',
-          name: 'home',
-          router: {name: 'home'}
-        },
+        // {
+        //   title: '首页',
+        //   name: 'home',
+        //   router: {name: 'home'}
+        // },
         {
           title: '我的日志',
           name: 'myLog',

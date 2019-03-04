@@ -11,12 +11,8 @@ export default new Router({
         path: '/main',
         name: 'main',
         component: (resolve) => require(['../page/main.vue'], resolve),
-        redirect: '/main/home',
+        redirect: '/main/myLog',
         children: [{
-            path: 'home',
-            name: 'home',
-            component: (resolve) => require(['../page/home/index.vue'], resolve)
-        }, {
             path: 'myLog',
             name: 'myLog',
             component: (resolve) => require(['../page/myLog/index.vue'], resolve)
